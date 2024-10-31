@@ -1,0 +1,9 @@
+echo "# meu_repositorio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Gui125/meu_repositorio.git
+git config --global user.name "Gui125"
+git config --global user.email "miyagimiyagi@gmail.com"
+git push -u origin main
